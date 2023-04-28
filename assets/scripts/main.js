@@ -10,7 +10,7 @@ recursivePrompt();
 function recursivePrompt(age, km, price) {
 
   
-  age = parseInt(prompt("Inserisci la tua età:"));
+  age = prompt("Inserisci la tua età:");
   if ((age != "") && (age !== null)) {
     km = prompt("Inserisci il numero di chilometri che vuoi percorrere:");
   } else {
