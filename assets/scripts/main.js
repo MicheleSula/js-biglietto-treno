@@ -2,7 +2,7 @@
 let age;
 let km;
 let errorMessage;
-let price; 
+let price;
 
 // Funzione recursivePrompt
 recursivePrompt();
@@ -10,7 +10,7 @@ recursivePrompt();
 function recursivePrompt(age, km, price) {
 
   
-  age = prompt("Inserisci la tua età:");
+  age = parseInt(prompt("Inserisci la tua età:"));
   if ((age != "") && (age !== null)) {
     km = prompt("Inserisci il numero di chilometri che vuoi percorrere:");
   } else {
@@ -39,8 +39,8 @@ function recursivePrompt(age, km, price) {
 }
 
 // // Variabili KM e age
-// let km =prompt("Inserisci il numero di chilometri che vuoi percorrere:");
-// let age =prompt("Inserisci la tua età:");
+// let km = prompt("Inserisci il numero di chilometri che vuoi percorrere:");
+// let age = prompt("Inserisci la tua età:");
 
 
 // // Prezzo al kilometro
@@ -48,10 +48,10 @@ function recursivePrompt(age, km, price) {
 
 
 // // Sconto per minorenni e over 65
-// if(age<18){
-//     price*=0.8;
-// }elseif(age>=65){
-//     price*=0.6;
+// if (age < 18) {
+//     price *= 0.8;
+// } else if (age >= 65) {
+//     price *= 0.6;
 // }
 
 
